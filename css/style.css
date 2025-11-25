@@ -23,7 +23,7 @@
 }
 
 body {
-  background-color: rgb(15, 15, 105);
+  background-color: #191d7b;
 }
 
 img {
@@ -55,6 +55,31 @@ button {
 }
 
 .browser-button {
-  background-color: rgb(89, 99, 240);
+  background-color: rgb(88, 101, 242);
   color: rgb(255, 255, 255);
+}
+
+.card {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(49, 36, 231),
+    rgb(99, 89, 241)
+  );
+  border-radius: 30px;
+  max-width: 460px;
+  padding: 60px 20px;
+  margin: 2px auto;
+}
+
+.card img {
+  position: absolute;
+  width: 100px;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card video {
+  border-radius: 30px;
+  margin: 0px auto;
 }

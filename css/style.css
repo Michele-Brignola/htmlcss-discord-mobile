@@ -30,10 +30,14 @@ img {
   max-width: 100%;
 }
 
+section {
+  padding: 30px;
+}
+
 .intro {
   text-align: center;
   max-width: 350px;
-  margin: 60px auto;
+  margin: 20px auto;
 }
 
 .intro h1 {
@@ -62,13 +66,13 @@ button {
 .card {
   background-image: linear-gradient(
     to bottom,
-    rgb(49, 36, 231),
-    rgb(99, 89, 241)
+    rgb(88, 77, 243),
+    rgb(112, 105, 206)
   );
   border-radius: 30px;
   max-width: 460px;
   padding: 60px 20px;
-  margin: 2px auto;
+  margin: 0px auto;
 }
 
 .card img {

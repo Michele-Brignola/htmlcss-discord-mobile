@@ -4,29 +4,29 @@
   box-sizing: border-box;
 }
 
-.dm-sans {
-  /* 
-  <weight>: Use a value from 100 to 1000
-  */
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  color: white;
-}
-
-.sigmar-regular {
-  font-family: "Sigmar", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: white;
-}
-
 body {
   background-color: #191d7b;
 }
 
+h1 {
+  font-family: "Sigmar", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 35px;
+  margin: 5px;
+}
+
+p {
+  font-family: "DM Sans", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  font-style: normal;
+  margin: 5px;
+}
+
 img {
+  display: block;
   max-width: 100%;
 }
 
@@ -36,41 +36,38 @@ section {
 
 .intro {
   text-align: center;
-  max-width: 350px;
-  margin: 20px auto;
+  padding: 30px;
+  margin: 0px auto;
 }
 
 .intro h1 {
   line-height: 1;
 }
 
-button {
+.btn {
+  display: block;
   font-size: 20px;
   border: none;
   min-width: 350px;
-  padding: 10px;
-  margin: 8px auto;
+  padding: 15px;
+  margin: 15px auto;
   border-radius: 12px;
 }
 
-.download-button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+.download-btn {
+  background-color: #ffffff;
+  color: #000000;
 }
 
-.browser-button {
-  background-color: rgb(88, 101, 242);
-  color: rgb(255, 255, 255);
+.browser-btn {
+  background-color: #5865f2;
+  color: #ffffff;
 }
 
 .card {
-  background-image: linear-gradient(
-    to bottom,
-    rgb(88, 77, 243),
-    rgb(112, 105, 206)
-  );
+  position: relative;
+  background-image: linear-gradient(to bottom, #584df3, #7069ce);
   border-radius: 30px;
-  max-width: 460px;
   padding: 60px 20px;
   margin: 0px auto;
 }
@@ -84,6 +81,7 @@ button {
 }
 
 .card video {
+  display: block;
   border-radius: 30px;
-  margin: 0px auto;
+  margin: 20px auto;
 }
